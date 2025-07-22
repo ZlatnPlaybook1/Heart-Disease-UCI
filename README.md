@@ -1,7 +1,7 @@
-Heart Disease Prediction using Machine Learning
+## Heart Disease Prediction using Machine Learning
 
 This project demonstrates the application of machine learning algorithms to predict the presence of heart disease based on various patient medical attributes. Our objective is to build an effective predictive model that can support early diagnosis and treatment decisions.
-📌 Introduction
+## 📌 Introduction
 
 Cardiovascular diseases are one of the leading causes of mortality globally. Early detection is crucial for timely intervention. Leveraging machine learning, we aim to predict the likelihood of heart disease using clinical data, improving diagnostic accuracy and patient outcomes.
 📊 Dataset
@@ -35,18 +35,18 @@ We use the Heart Disease UCI dataset from the UCI Machine Learning Repository. T
     Thalassemia
 
 The target variable indicates the presence (1) or absence (0) of heart disease.
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 To develop a machine learning model that accurately predicts whether a patient is likely to have heart disease based on their medical features.
 🛠️ Project Workflow
 
-    Exploratory Data Analysis (EDA):
+1- Exploratory Data Analysis (EDA):
 
         Visualize feature distributions.
 
         Identify patterns and correlations.
 
-    Data Preprocessing:
+2-  Data Preprocessing:
 
         Handle missing values.
 
@@ -54,11 +54,11 @@ To develop a machine learning model that accurately predicts whether a patient i
 
         Normalize numerical features.
 
-    Feature Engineering:
+3-  Feature Engineering:
 
         Create or transform features to enhance model performance.
 
-    Model Selection:
+4-  Model Selection:
 
         Evaluate classification models such as:
 
@@ -72,7 +72,7 @@ To develop a machine learning model that accurately predicts whether a patient i
 
             Gradient Boosting
 
-    Model Evaluation:
+5-  Model Evaluation:
 
         Use performance metrics:
 
@@ -84,31 +84,30 @@ To develop a machine learning model that accurately predicts whether a patient i
 
             F1-Score
 
-
-    Hyperparameter Tuning:
+6- Hyperparameter Tuning:
 
         Optimize model performance using techniques like GridSearchCV and RandomizedSearchCV.
 
-    Cross-Validation:
+7- Cross-Validation:
 
         Assess model stability and generalization using Stratified K-Fold cross-validation.
 
-    Feature Importance:
+ 8- Feature Importance:
 
         Identify key features contributing to predictions using model-specific techniques (e.g., Random Forest importance, SHAP values).
 
-    Final Model Selection:
+9- Final Model Selection:
 
         Choose the best-performing and most interpretable model.
 
-    Experimentation:
+10- Experimentation:
 
         Explore ensemble methods and advanced techniques for further improvement.
 
-✅ Conclusion
+## ✅ Conclusion
 
 By following a structured and iterative approach, we aim to build a robust and interpretable machine learning model that accurately predicts heart disease. This project highlights the potential of AI and data-driven methods in the healthcare domain, contributing to improved diagnostic tools and patient care.
-📢 Stay Tuned
+## 📢 Stay Tuned
 
 We'll continue refining the model and updating this repository with our findings and insights.
 Feel free to reach out if you have any questions or suggestions!
